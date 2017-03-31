@@ -6,7 +6,9 @@ Las pantallas táctiles LCD de Nextion son ideales para Arduinos porque la mayor
 
 # Creando un botón
 
-El editor Nextion tiene componentes masivos tales como botones, texto, barra de progreso, slider, panel de instrumentación, para enriquecer el diseño de su interfaz. Para agregar un botón realizamos los siguientes pasos:
+![Adding a button](https://raw.githubusercontent.com/SETISAEDU/Control-de-un-Servomotor-con-Arduino-MEGA-y-Nextion/master/Button_Nextion.jpg)
+
+El editor Nextion tiene componentes masivos tales como [botones](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Button), texto, barra de progreso, slider, panel de instrumentación, para enriquecer el diseño de su interfaz. Para agregar un botón realizamos los siguientes pasos:
 
 1. Abrimos el editor de Nextion
 2. Creamos un nuevo proyecto de trabajo
@@ -20,3 +22,15 @@ El editor Nextion tiene componentes masivos tales como botones, texto, barra de 
 10. En la tabla de eventos podemos establecer acciones a realizar cuando se presione el botón
 11. Al marcar la casilla **Send Component ID**, la Nextion enviará identificadores del botón presionado.
 
+# Diagrama de conexión
+
+Conecte los elementos como se muestra en el siguiente diagrama:
+![Schematic](https://raw.githubusercontent.com/SETISAEDU/Control-de-un-Servomotor-con-Arduino-MEGA-y-Nextion/master/Nextion_Arduino_Servo_bb.png)
+
+# Código de programación Arduino
+
+Cargue el código ´ControlServo_Nextion.ino´ al Arduino MEGA, para recibir comando de acción de la Nextion y control la direccion y velocidad de giro del servomotor.
+
+# Cargando el firmware a la pantalla NX3224T028_011
+
+Guarde en una memoria microSD con formato **FAT 32** el firmware generado ´ServoControl_Arduino.tft´ y realice el procedimiento de programación como se muestra en el siguiente [tutorial](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Flash_Project_firmware_from_SD_card)
