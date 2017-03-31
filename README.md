@@ -29,8 +29,8 @@ Conecte los elementos como se muestra en el siguiente diagrama:
 
 # Código de programación Arduino
 
-Cargue el código ´ControlServo_Nextion.ino´ al Arduino MEGA, para recibir comando de acción de la Nextion y control la direccion y velocidad de giro del servomotor.
+Cargue el código `ControlServo_Nextion.ino` al Arduino MEGA, para recibir comando de acción de la Nextion y control la direccion y velocidad de giro del servomotor.
 
 # Cargando el firmware a la pantalla NX3224T028_011
 
-Guarde en una memoria microSD con formato **FAT 32** el firmware generado ´ServoControl_Arduino.tft´ y realice el procedimiento de programación como se muestra en el siguiente [tutorial](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Flash_Project_firmware_from_SD_card)
+Guarde en una memoria microSD con formato **FAT 32** el firmware generado `ServoControl_Arduino.tft` y realice el procedimiento de programación como se muestra en el siguiente [tutorial](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Flash_Project_firmware_from_SD_card)
