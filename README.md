@@ -6,7 +6,17 @@ Las pantallas táctiles LCD de Nextion son ideales para Arduinos porque la mayor
 
 # Creando un botón
 
+El editor Nextion tiene componentes masivos tales como botones, texto, barra de progreso, slider, panel de instrumentación, para enriquecer el diseño de su interfaz. Para agregar un botón realizamos los siguientes pasos:
+
 1. Abrimos el editor de Nextion
 2. Creamos un nuevo proyecto de trabajo
 3. Seleccionamos la pantalla Nextion con la que vamos a trabajar (Modelo, Detalles y Orientación)
-4. Creamos la fuente de letras (onsulte el siguiente enlace del [tutorial](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Tool))
+4. Creamos la fuente de letras (Consulte el siguiente [tutorial](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Tool))
+5. En el cuadro Toolbox seleccionamos Button
+6. Seleccionamos el área de la pantalla donde insertamos el botón.
+7. En la tabla de atributos modifcamos **solid color** por **crop image**
+8. en el atributo **picc** seleccionamos la imagen del botón sin presionar 
+9. En el atributo **picc2** seleccionamos la imagen del botón presionado
+10. En la tabla de eventos podemos establecer acciones a realizar cuando se presione el botón
+11. Al marcar la casilla **Send Component ID**, la Nextion enviará identificadores del botón presionado.
+
