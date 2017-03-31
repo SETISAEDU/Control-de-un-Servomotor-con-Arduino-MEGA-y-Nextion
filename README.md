@@ -44,4 +44,5 @@ En el segundo menú se encuentran dos botones con los que podemos hacerlo girar 
 ![Sweep_menu](https://github.com/SETISAEDU/Control-de-un-Servomotor-con-Arduino-MEGA-y-Nextion/blob/master/Recursos%20Visuales%20de%20Dise%C3%B1o/Sweep%20Control/Not_Selected.jpg)
 
 En el tercer menú podremos apreciar una barra de progreso junto con dos botones que nos permite controlar la velocidad con la que se efectúan los giros en el servomotor.
+
 ![Speed_menu](https://raw.githubusercontent.com/SETISAEDU/Control-de-un-Servomotor-con-Arduino-MEGA-y-Nextion/master/Recursos%20Visuales%20de%20Dise%C3%B1o/Speed%20Control/Not_Selected.jpg)
