@@ -34,3 +34,14 @@ Cargue el código `ControlServo_Nextion.ino` al Arduino MEGA, para recibir coman
 # Cargando el firmware a la pantalla NX3224T028_011
 
 Guarde en una memoria microSD con formato **FAT 32** el firmware generado `ServoControl_Arduino.tft` y realice el procedimiento de programación como se muestra en el siguiente [tutorial](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Flash_Project_firmware_from_SD_card).
+
+## Menú para el control del Servomotor
+
+En el primer menú podemos escoger que accion relizar: Controlar el sentido de giro y la velocidad de giro.
+![Main_menu](https://raw.githubusercontent.com/SETISAEDU/Control-de-un-Servomotor-con-Arduino-MEGA-y-Nextion/master/Recursos%20Visuales%20de%20Dise%C3%B1o/Main%20Menu/Not_Selected.jpg) 
+
+En el segundo menú se encuentran dos botones con los que podemos hacerlo girar a la izquierda o derecha.
+![Sweep_menu](https://github.com/SETISAEDU/Control-de-un-Servomotor-con-Arduino-MEGA-y-Nextion/blob/master/Recursos%20Visuales%20de%20Dise%C3%B1o/Sweep%20Control/Not_Selected.jpg)
+
+En el tercer menú podremos apreciar una barra de progreso junto con dos botones que nos permite controlar la velocidad con la que se efectúan los giros en el servomotor.
+![Speed_menu](https://raw.githubusercontent.com/SETISAEDU/Control-de-un-Servomotor-con-Arduino-MEGA-y-Nextion/master/Recursos%20Visuales%20de%20Dise%C3%B1o/Speed%20Control/Not_Selected.jpg)
