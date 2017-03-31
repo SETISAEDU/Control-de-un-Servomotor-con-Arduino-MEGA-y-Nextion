@@ -9,4 +9,4 @@ Las pantallas táctiles LCD de Nextion son ideales para Arduinos porque la mayor
 1. Abrimos el editor de Nextion
 2. Creamos un nuevo proyecto de trabajo
 3. Seleccionamos la pantalla Nextion con la que vamos a trabajar (Modelo, Detalles y Orientación)
-4. Creamos la fuente de letras (onsulte el siguiente enlace del (tutorial)[https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Tool])
+4. Creamos la fuente de letras (onsulte el siguiente enlace del [tutorial](https://www.itead.cc/wiki/Nextion_Editor_Quick_Start_Guide#Tool))
